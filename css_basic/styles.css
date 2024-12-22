@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+header {
+    color: #fff;
+    background-color: #333;
+    border-bottom: 2px solid #ccc;
+}
+
+footer {
+    color: #fff;
+    background-color: #333;
+    border-top: 2px solid #ccc;
+}
+
+article {
+    padding: 1rem;
+    background-color: #fafafa;
+    border-right: 1px solid #ccc;
+}
+
+aside {
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
